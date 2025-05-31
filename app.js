@@ -15,7 +15,6 @@ app.get('/profile', (req, res) => {
   res.render('profile'); // ./views/index.ejs
 })
 
-
 app.listen(port, () => {
   console.log(`서버가 실행되었습니다. ${port}`)
 })
